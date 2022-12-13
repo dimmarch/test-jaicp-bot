@@ -14,5 +14,5 @@ caila:
 
 nlp:
   intentNoMatchThresholds:
-    examples: 0.99
+    phrases: 0.99
     patterns: 0.2
