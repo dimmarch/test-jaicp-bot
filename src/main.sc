@@ -20,13 +20,9 @@ theme: /
                 
                 var intent = intents[index]
                 var score = Number(intent.score).toFixed(4)
-                var patternsScore = Number(intent.debugInfo.weights.patterns).toFixed(4)
-                var examplesScore = Number(intent.debugInfo.weights.phrases).toFixed(4)
                 
                 var answer = "<b>Путь:</b> " + intent.debugInfo.intent.path +
-                    "<br><b>Итоговый вес:</b> " + score +
-                    "<br><b>Вес паттернов:</b> " + patternsScore +
-                    "<br><b>Вес примеров:</b> " + examplesScore
+                    "<br><b>Итоговый вес:</b> " + score 
                 $response.replies.push({
                     "type": "text",
                     "text": answer,
