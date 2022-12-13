@@ -37,7 +37,9 @@
     "answer" : "",
     "enabled" : true,
     "shared" : false,
-    "phrases" : [ ],
+    "phrases" : [ {
+      "text" : "пока"
+    } ],
     "classificationRules" : {
       "refs" : [ ]
     },
