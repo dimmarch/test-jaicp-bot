@@ -32,6 +32,17 @@
     },
     "patterns" : [ ],
     "priority" : 0
+  },{
+    "path" : "/intent from dev",
+    "answer" : "",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
   }, {
     "path" : "/так себе привет",
     "enabled" : true,
